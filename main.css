@@ -2,4 +2,71 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: aquamarine;
+    margin-bottom: 40px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    margin-right: 16px;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input, button{
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.container form, table{
+
+    max-width: 640px;
+    width: 100%;
+    margin: 40px auto;
+}
+
+button{
+    border: none;
+    background-color: aquamarine;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+tbody{
+    text-align: center;
+}
+
+tfoot{
+    text-align: center;
+}
+
+table tr td, table tr th{
+    padding: 8px;
+}
+
+table tr th{
+    border-bottom: 2px solid black;
+}
+
+table tr td{
+    border-bottom: 2px solid rgba(0, 0, 0, .3);
+}
+
+tfoot tr td{
+    border-bottom: none;
+    font-weight: bold;
+}
+
+table{
+    border-spacing: 0;
 }

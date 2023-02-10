@@ -5,8 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatos</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    
+    <header>
+        <img src="" alt="livro">
+        <h1>Contatos</h1>
+    </header>
+    <main>
+        <div class="container">
+            <form id="formCtt">
+                <input id="inpName" type="text" required placeholder="Nome Contato">
+                <input id="inpTel" type="tel" required placeholder="Numero Contato">
+                <button id="btnAddCtt">Adicionar</button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Voce tem x contatos</td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+    <script src="./main.js"></script>
 </body>
 </html>
