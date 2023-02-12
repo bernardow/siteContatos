@@ -45,6 +45,7 @@ button{
     background-color: rgb(255, 93, 39);
     font-weight: bold;
     font-style: italic;
+    font-size: 16px;
     cursor: pointer;
 }
 
